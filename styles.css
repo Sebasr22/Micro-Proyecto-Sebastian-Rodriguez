@@ -75,3 +75,76 @@ button{
 .active {
     opacity: 1;
 }
+
+.text_center{
+    margin-top: 30px;
+    text-align: center;
+    font-size: 30px;
+}
+
+.mt-1{
+    margin-top: 10px;
+}
+
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: auto;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    margin-top: 50px;
+}
+
+.box {
+    width: 30%;
+    height: 100%;
+    opacity: 0.5;
+    transition: all 0.5s ease;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.active {
+    width: 40%;
+    opacity: 1;
+}
+
+.containerBoton {
+    display: flex;
+    justify-content: center;
+    }
+
+.left {
+    background-color: var(--main-blue);
+    padding: 12px;
+    border-radius: 10px;
+    margin-right: 2.5px;
+}
+
+.right {
+    background-color: var(--main-blue);
+    padding: 12px;
+    border-radius: 10px;
+    margin-left: 2.5px;
+}
+
+img {
+    width: 100%;
+    height: 60%;
+    object-fit: cover;
+}
+
+p {
+    margin-top: 10px;
+    text-align: center;
+}
+
+hr {
+    border: 2px solid var(--main-background);
+    margin: 40px;
+}
