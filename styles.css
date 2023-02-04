@@ -31,6 +31,11 @@ nav li:first-child {
     flex-grow: 3;
 }
 
+nav li a {
+    text-decoration: none;
+    color: var(--main-white);
+}
+
 button{
     padding: 8px;
     background-color: var(--main-blue);
