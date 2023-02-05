@@ -258,3 +258,11 @@ hr {
         width: 80%;
     }
 }
+
+footer {
+    background-color: var(--main-background);
+    color: var(--main-white);
+    margin-top: 10px;
+    text-align: end;
+    padding: 10px;
+}
