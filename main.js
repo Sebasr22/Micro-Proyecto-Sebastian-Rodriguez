@@ -54,6 +54,11 @@ fetch('skills.json')
         const skillContainer = document.createElement('div');
         skillContainer.classList.add('skill');
 
+        const skillText = document.createElement('div');
+        skillText.classList.add('d-flex')
+
+
+
         const skillName = document.createElement('p');
         skillName.innerHTML = skill.name;
 
@@ -64,8 +69,9 @@ fetch('skills.json')
         skillLevel.classList.add('skill-level');
         skillLevel.style.width = `${skill.level}%`;
 
-        skillContainer.appendChild(skillName);
-        skillContainer.appendChild(skillPorcentaje)
+        skillText.appendChild(skillName);
+        skillText.appendChild(skillPorcentaje);
+        skillContainer.appendChild(skillText);
         skillContainer.appendChild(skillLevel);
         skillsContainer.appendChild(skillContainer);
 }
