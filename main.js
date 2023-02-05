@@ -72,5 +72,15 @@ fetch('skills.json')
         skillContainer.appendChild(skillText);
         skillContainer.appendChild(skillLevel);
         skillsContainer.appendChild(skillContainer);
-}
+    }
+});
+
+const form = document.getElementById("contact-form");
+
+form.addEventListener("submit", function (event) {
+    event.preventDefault();
+    const name = document.getElementById("name").value;
+    const email = document.getElementById("email").value;
+    const message = document.getElementById("message").value;
+    alert(`Su mensaje ha sido enviado exitosamente.\n\nNombre: ${name}\nCorreo Electrónico: ${email}\nMensaje: ${message}`);
 });

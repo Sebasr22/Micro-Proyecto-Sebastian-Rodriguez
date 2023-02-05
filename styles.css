@@ -187,3 +187,40 @@ hr {
 .d-flex {
     display: flex;
 }
+
+
+
+#contact-form {
+    width: 50%;
+    padding: 20px;
+    border: 2px solid gray;
+    border-radius: 5px;
+    margin: 0 auto;
+}
+
+#contact-form label {
+    font-weight: bold;
+}
+
+#contact-form input[type="text"], #contact-form input[type="email"], #contact-form textarea {
+    width: 97%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+
+#contact-form input[type="submit"] {
+    width: 25%;
+    padding: 10px;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.input_center {
+    display: flex;
+    justify-content: center;
+}
