@@ -181,7 +181,7 @@ hr {
 
 .skill-level {
     height: 10px;
-    background-color: var(--main-background);
+    background-color: darkred;
 }
 
 .d-flex {

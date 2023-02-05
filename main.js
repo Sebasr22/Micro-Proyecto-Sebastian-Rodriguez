@@ -57,8 +57,6 @@ fetch('skills.json')
         const skillText = document.createElement('div');
         skillText.classList.add('d-flex')
 
-
-
         const skillName = document.createElement('p');
         skillName.innerHTML = skill.name;
 
