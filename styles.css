@@ -232,3 +232,29 @@ hr {
     justify-content: center;
     margin: 10px;
 }
+
+/* Responsive */
+
+@media only screen and (max-width: 600px) {
+    nav ul {
+        flex-direction: column;
+        padding-left: 0;
+    }
+    
+    nav li {
+        text-align: center;
+        flex-grow: 1;
+    }
+    
+    .container {
+        flex-direction: column;
+    }
+    
+    .box {
+        width: 80%;
+    }
+    
+    #contact-form {
+        width: 80%;
+    }
+}
