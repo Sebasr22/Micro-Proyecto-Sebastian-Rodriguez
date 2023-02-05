@@ -181,7 +181,7 @@ hr {
 
 .skill-level {
     height: 10px;
-    background-color: darkred;
+    background-color: var(--main-blue);
 }
 
 .d-flex {
@@ -222,8 +222,8 @@ hr {
 #contact-form input[type="submit"] {
     width: 25%;
     padding: 10px;
-    background-color: blue;
-    color: white;
+    background-color: var(--main-blue);
+    color: var(--main-background);
     border: none;
     border-radius: 5px;
     cursor: pointer;
