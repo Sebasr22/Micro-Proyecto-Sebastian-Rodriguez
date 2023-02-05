@@ -224,3 +224,11 @@ hr {
     display: flex;
     justify-content: center;
 }
+
+.whatsapp {
+    width: 25px;
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
