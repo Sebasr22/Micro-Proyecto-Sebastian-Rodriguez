@@ -40,3 +40,39 @@ function moveRight() {
     activeBox.classList.remove('active');
     nextBox.classList.add('active');
 }
+
+let skills;
+
+fetch('skills.json')
+    .then(response => response.json())
+    .then(data => {
+    skills = data.skills;
+    
+    const skillsContainer = document.getElementById('skills-container');
+
+    for (const skill of skills) {
+        const skillContainer = document.createElement('div');
+        skillContainer.classList.add('skill');
+
+        const skillText = document.createElement('div');
+        skillText.classList.add('d-flex')
+
+
+
+        const skillName = document.createElement('p');
+        skillName.innerHTML = skill.name;
+
+        const skillPorcentaje = document.createElement('p');
+        skillPorcentaje.innerHTML = skill.level + "%";
+        
+        const skillLevel = document.createElement('div');
+        skillLevel.classList.add('skill-level');
+        skillLevel.style.width = `${skill.level}%`;
+
+        skillText.appendChild(skillName);
+        skillText.appendChild(skillPorcentaje);
+        skillContainer.appendChild(skillText);
+        skillContainer.appendChild(skillLevel);
+        skillsContainer.appendChild(skillContainer);
+}
+});

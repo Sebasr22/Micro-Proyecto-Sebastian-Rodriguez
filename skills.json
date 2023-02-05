@@ -1,0 +1,48 @@
+{
+    "skills": [
+        {
+        "name": "Javascript",
+        "level": 80
+        },
+        {
+        "name": "HTML",
+        "level": 85
+        },
+        {
+        "name": "CSS",
+        "level": 85
+        },
+        {
+        "name": "React",
+        "level": 50
+        },
+        {
+        "name": "Python",
+        "level": 90
+        },
+        {
+        "name": "Java",
+        "level": 75
+        },
+        {
+        "name": "Jmeter",
+        "level": 100
+        },
+        {
+        "name": "Node.js",
+        "level": 50
+        },
+        {
+        "name": "Newman",
+        "level": 85
+        },
+        {
+        "name": "Postman",
+        "level": 100
+        },
+        {
+        "name": "OWASP ZAP",
+        "level": 80
+        } 
+    ]
+}
